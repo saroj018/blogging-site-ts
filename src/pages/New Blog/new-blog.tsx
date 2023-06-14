@@ -11,7 +11,7 @@ const NewBlog = () => {
         // console.log(value)
         
     }, [value])
-    const handleContentChange = (e:any)=>{
+    const handleContentChange = (e:string)=>{
         // console.log(e);
         setValue(e);
         if(previewRef.current){

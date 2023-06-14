@@ -1,11 +1,13 @@
+// import SignIn from "./pages/SignIn/sign-in"
+import SignUp from "./pages/SignUp/sign-up"
 
-import Login from "./Login/Login"
+function App() {
 
-const App = () => {
   return (
-    <div>
-      <Login/>
-    </div>
+    <>
+      {/* <SignIn/> */}
+      <SignUp/>
+    </>
   )
 }
 

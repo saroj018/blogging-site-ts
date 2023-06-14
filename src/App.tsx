@@ -1,29 +1,21 @@
-<<<<<<< HEAD
-// import SignIn from "./pages/SignIn/sign-in"
-import SignUp from "./pages/SignUp/sign-up"
-
-function App() {
-
-  return (
-    <>
-      {/* <SignIn/> */}
-      <SignUp/>
-    </>
-  )
-}
-=======
-
-
 
 import Login from "./Login/Login"
-
+import { Route, Routes } from "react-router-dom"
+import SignUp from "./pages/SignUp/sign-up"
+import Home from "./pages/Home/home"
+import NewBlog from "./pages/New Blog/new-blog"
 const App = () => {
   return (
     <div>
-      <Login/>
+      <Routes>
+        <Route path="/" index element={<Home/>}/>
+        <Route path="/blog/new" element={<NewBlog/>}/>
+        <Route path="/signin" element={<Login/>}/>
+        <Route path="/signup" element={<SignUp/>}/>
+        <Route path="*" element={<h1>404 Error</h1>}/>
+      </Routes>
     </div>
 )
     }
->>>>>>> f159feb74f573b70d6ec215e39805da17c4fabf8
 
 export default App

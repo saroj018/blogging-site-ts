@@ -24,7 +24,7 @@ const SignUp = () => {
           <FaLock className={styles.icon} />
         </div>
 
-
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, perferendis ut, rerum obcaecati repellat velit et veniam eaque ab consequuntur magni optio! Porro odit, ullam provident perferendis rerum ipsam vero?
 
 
         <button className={styles.btn}>Sign Up</button>
